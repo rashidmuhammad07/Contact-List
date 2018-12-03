@@ -1,13 +1,11 @@
 {
   "name": "personalproject",
-  "version": "0.0.560",
+  "version": "1.0.0",
   "description": "To Be Added soon...",
   "main": "./client/src/index.jsx",
   "scripts": {
     "start": "nodemon ./server/index.js",
-    "build": "webpack -d --watch",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "build": "webpack -d --watch"
   },
   "repository": {
     "type": "git",
@@ -20,7 +18,6 @@
   },
   "homepage": "https://github.com/rashidmuhammad07/PersonalProject#readme",
   "devDependencies": {
-    "react-scripts": "1.0.0",
     "webpack": "^4.16.1",
     "webpack-cli": "^3.1.0"
   },
